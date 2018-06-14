@@ -1,0 +1,49 @@
+//
+// Color system
+//
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #AEA79F;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #333;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #772953;
+$pink:    #e83e8c;
+$red:     #DF382C;
+$orange:  #E95420;
+$yellow:  #EFB73E;
+$green:   #38B44A;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$facebook:       #306199;
+$facebook-hover: #244872;
+$google:         #e93f2e;
+$google-hover:   #ce2616;
+$github:         #444;
+$github-hover:   #2b2b2b;
+
+$primary:       $orange;
+$secondary:     $gray-500;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-200;
+$dark:          $purple;
+
+$yiq-contrasted-threshold: 200;
+
+// Body
+$body-color:                $gray-800;
+
+// Fonts
+$font-family-sans-serif:      "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
