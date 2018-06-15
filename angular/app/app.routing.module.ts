@@ -5,6 +5,7 @@ import { AuthComponent, AppComponent, ErrorComponent } from './components/layout
 import { LoginComponent, SocialComponent } from './components/auth';
 
 const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'auth/login' },
   { path: 'auth', component: AuthComponent, children: [
     { path: '', pathMatch: 'full', redirectTo: 'login' },
     { path: 'login', component: LoginComponent },
